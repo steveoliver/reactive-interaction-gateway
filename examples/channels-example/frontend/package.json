@@ -6,8 +6,8 @@
     "bulma": "^0.7.5",
     "jsonwebtoken": "^8.5.1",
     "proptypes": "^1.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "react-scripts": "^4.0.3"
