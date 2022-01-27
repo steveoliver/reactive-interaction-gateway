@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.21.6
 
 COPY build /opt/sites/frontend
 COPY nginx.conf /etc/nginx/nginx.conf
