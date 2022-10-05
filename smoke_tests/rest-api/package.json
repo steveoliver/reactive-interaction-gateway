@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Accenture",
   "license": "Apache-2.0",
@@ -15,6 +17,8 @@
     "morgan": "^1.9.1",
     "multer": "^1.4.2",
     "no-kafka": "^3.4.3",
-    "winston": "^3.2.1"
-  }
+    "winston": "^3.2.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
